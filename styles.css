@@ -1,0 +1,151 @@
+body{
+  background: linear-gradient(to bottom,rgb(255,225,225), rgb(225,125,125));
+  font-family:"comic sans MS", cursive;
+}
+header{
+  width:90%;
+  margin:1em 10% 1em 10%;
+  overflow:auto;
+}
+div.center{
+  display:flex;
+  color:rgb(20,75, 200);
+  width:60%;
+  float:right;
+  align-content:center;
+}
+div.center h1{
+  font-size:4em;
+}
+div.pic{
+  display:flex;
+  justify-content:center;
+  height:auto;
+  width:40%;
+  float:left;
+}
+div.pic img{
+  width:80%;
+}
+section.one{
+  overflow:auto;
+  background: linear-gradient(to bottom,rgb(200,200,255), rgb(75,100,175));
+  border:5px dashed rgb(65,90,165);
+  border-radius:35px;
+  margin:0% 2% 0% 2%;
+  padding:1em;
+}
+nav.one img{
+  height:auto;
+  width:100%;
+  border-radius:10px;
+}
+nav.one ul figure{
+  text-align:center;
+  height:auto;
+  width:20%;
+  float: right;
+  margin:1em;
+}
+nav.breadcrums{
+  display:flex;
+  justify-content:center;
+  margin:1em;
+  text-decoration:none;
+}
+section.three{
+  margin:0% 5% 0% 5%;
+  overflow:auto;
+}
+h2{
+  color:rgb(0,55,180);
+  display:flex;
+  justify-content:center;
+  font-size:2em;
+}
+img.one{
+  float:left;
+}
+aside.def{
+  width: 20%;
+  float:right;
+  padding:1em;
+}
+img.two{
+  margin:1em 5% 1em 5%;
+  width:90%;
+}
+section.three img.one{
+  height:auto;
+  width:25%;
+  margin:1em;
+}
+section.four{
+  display:flex;
+  flex-direction:column;
+  overflow:auto;
+  background: linear-gradient(to bottom,rgb(200,200,255), rgb(75,100,175));
+  border:4px dashed rgb(65,90,165);
+  border-radius:50px;
+  width:90%;
+  margin:0% 5% 0% 5%;
+  justify-content:center;
+}
+section.four h4{
+  display:flex;
+  justify-content:center;
+}
+h4{
+  text-align:center;
+}
+nav.three{
+  text-align:center;
+}
+nav.three img{
+  height:auto;
+  width:100%;
+}
+nav.three ul li{
+  display:inline-block;
+  text-decoration: none;
+  margin:.25em;
+  height:auto;
+  width:8%;
+}
+nav.three ul figure{
+  display:inline-block;
+  text-decoration: none;
+  margin:.25em;
+  height:auto;
+  width:10%;
+}
+section.five{
+  overflow:auto;
+}
+nav.four{
+  float:left;
+  margin-left:20%;
+}
+nav.five{
+  margin-right:20%;
+}
+nav.five ul{
+  float:right;
+}
+nav.five ul.right li{
+  text-decoration:none;
+}
+footer{
+  background-color:rgb(215,120,120);
+}
+footer p{
+  text-align:center;
+  font-style:italic;
+  align-content:bottom;
+  text-decoration:none;
+}
+@media only all and (max-width: 37.5em){
+  section.four{
+    display:none;
+  }
+}

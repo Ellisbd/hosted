@@ -1,4 +1,4 @@
-body{
+body{/*I swapped the rights and lefts but I can't figure out how to view how it looks*/
   background: linear-gradient(to bottom,rgb(255,225,225), rgb(225,125,125));
   font-family:"comic sans MS", cursive;
 }
@@ -11,7 +11,7 @@ div.center{
   display:flex;
   color:rgb(20,75, 200);
   width:60%;
-  float:right;
+  float:left;
   align-content:center;
 }
 div.center h1{
@@ -22,7 +22,7 @@ div.pic{
   justify-content:center;
   height:auto;
   width:40%;
-  float:left;
+  float:right;
 }
 div.pic img{
   width:80%;
@@ -44,7 +44,7 @@ nav.one ul figure{
   text-align:center;
   height:auto;
   width:20%;
-  float: right;
+  float: left;
   margin:1em;
 }
 nav.breadcrums{
@@ -64,11 +64,11 @@ h2{
   font-size:2em;
 }
 img.one{
-  float:left;
+  float:right;
 }
 aside.def{
   width: 20%;
-  float:right;
+  float:left;
   padding:1em;
 }
 img.two{
@@ -123,14 +123,14 @@ section.five{
   overflow:auto;
 }
 nav.four{
-  float:left;
+  float:right;
   margin-left:20%;
 }
 nav.five{
   margin-right:20%;
 }
 nav.five ul{
-  float:right;
+  float:left;
 }
 nav.five ul.right li{
   text-decoration:none;

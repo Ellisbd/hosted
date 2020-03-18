@@ -1,4 +1,11 @@
-body{/*I swapped the rights and lefts but I can't figure out how to view how it looks*/
+  /*I swapped the rights and lefts but I can't figure out how to view how it looks*/
+
+  /*kyre,
+  you can click the clone button and download the repo
+  I think that visual studio will allow you to push your changes to the master file. you'll probably need to figure out
+  how to sign in to your github account but that should allow you to sync your changes -cory
+  */
+body{
   background: linear-gradient(to bottom,rgb(255,225,225), rgb(225,125,125));
   font-family:"comic sans MS", cursive;
 }
